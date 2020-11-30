@@ -21,7 +21,11 @@ In short, my name is Jérémy Surieux aka **Lelberto**, i'm from France and i'm 
     'Music making and listening',
     'Water sports (Surf, Swimming, ...)',
     'Video games (I looooove Among Us)'
-  ]
+  ],
+  speaks: {
+    french: 100,
+    english: 80
+  }
 }
 ```
 
