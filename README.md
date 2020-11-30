@@ -1,11 +1,5 @@
 ## Welcome to my GitHub profile 🥳
 
-In short, my name is Jérémy Surieux aka **Lelberto**, i'm from France and i'm a student developer at [Ynov Campus](https://www.ynov.com/).
-
-![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
-
-### Me 😄
-
 ```JavaScript
 {
   name: 'Jérémy Surieux',
@@ -28,6 +22,8 @@ In short, my name is Jérémy Surieux aka **Lelberto**, i'm from France and i'm 
   }
 }
 ```
+
+![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
 
 ### Skills 🔧
 
