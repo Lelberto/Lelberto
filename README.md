@@ -10,16 +10,16 @@
     city: 'Lyon'
   },
   study: 'Master degree in Web development',
+  speaks: {
+    french: 100,
+    english: 80
+  },
   hobbies: [
     'Web projects',
     'Music making and listening',
     'Water sports (Surf, Swimming, ...)',
     'Video games (I looooove Among Us)'
-  ],
-  speaks: {
-    french: 100,
-    english: 80
-  }
+  ]
 }
 ```
 
