@@ -28,11 +28,14 @@
 ### Skills 🔧
 
 [<img src="https://cdn.iconscout.com/icon/free/png-512/typescript-1174965.png" title="TypeScript" width="30" />](https://typescriptlang.org)
+[<img src="https://cdn.iconscout.com/icon/free/png-256/java-43-569305.png" title="Java" width="30" />](https://www.java.com)
+[<img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" title="C++" width="30" />](https://www.cplusplus.com)
+[<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/057/full/scsslogo.png" title="Sass" width="30" />](https://sass-lang.com)
+
+[<img src="https://image.flaticon.com/icons/png/512/919/919825.png" title="NodeJS" width="30" />](https://nodejs.org)
 [<img src="https://ionicframework.com/jp/docs/assets/icons/logo-react-icon.png" title="React" width="30" />](https://fr.reactjs.org)
 [<img src="https://img.icons8.com/color/452/mongodb.png" title="MongoDB" width="30" />](https://www.mongodb.com)
-[<img src="https://cdn.iconscout.com/icon/free/png-256/java-43-569305.png" title="Java" width="30" />](https://www.java.com)
-[<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/057/full/scsslogo.png" title="Sass" width="30" />](https://sass-lang.com)
-[<img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" title="C++" width="30" />](https://www.cplusplus.com)
+[<img src="https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg" title="TailwindCSS" width="30" />](https://tailwindcss.com)
 
 ### Contact 🌐
 
