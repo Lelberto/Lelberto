@@ -23,6 +23,8 @@
 }
 ```
 
+![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto)
+
 ![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
 
 ### Skills 🔧
