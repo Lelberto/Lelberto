@@ -36,6 +36,7 @@
 [<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/057/full/scsslogo.png" title="Sass" width="30" />](https://sass-lang.com)
 
 [<img src="https://image.flaticon.com/icons/png/512/919/919825.png" title="NodeJS" width="30" />](https://nodejs.org)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png" title="Deno" width="30" />](https://deno.land/)
 [<img src="https://ionicframework.com/jp/docs/assets/icons/logo-react-icon.png" title="React" width="30" />](https://fr.reactjs.org)
 [<img src="https://img.icons8.com/color/452/mongodb.png" title="MongoDB" width="30" />](https://www.mongodb.com)
 [<img src="https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg" title="TailwindCSS" width="30" />](https://tailwindcss.com)
