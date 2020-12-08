@@ -23,8 +23,8 @@
 }
 ```
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto)
-![Stats](https://github-readme-stats.vercel.app/api/top-langs?username=Lelberto&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto&theme=tokyonight)
+![Stats](https://github-readme-stats.vercel.app/api/top-langs?username=Lelberto&theme=tokyonight&layout=compact)
 
 ![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
 
