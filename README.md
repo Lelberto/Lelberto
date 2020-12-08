@@ -23,8 +23,8 @@
 }
 ```
 
-![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto&theme=tokyonight)
-![Stats](https://github-readme-stats.vercel.app/api/top-langs?username=Lelberto&theme=tokyonight&layout=compact)
+![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto&theme=tokyonight&hide_border=true&custom_title=GitHub%20Stats&count_private=true&show_icons=true)
+![Stats](https://github-readme-stats.vercel.app/api/top-langs?username=Lelberto&theme=tokyonight&layout=compact&hide_border=true&langs_count=10)
 
 ![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
 
