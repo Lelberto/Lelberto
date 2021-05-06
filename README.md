@@ -18,7 +18,7 @@
     'Web projects',
     'Music making and listening',
     'Water sports (Surf, Swimming, ...)',
-    'Video games (I looooove Among Us)'
+    'Video games'
   ]
 }
 ```
