@@ -1,5 +1,8 @@
 ## Welcome to my GitHub profile 🥳
 
+![Metrics](https://metrics.lecoq.io/Lelberto?template=classic&languages=1&lines=1&activity=1&notable=1&languages.limit=5&languages.sections=most-used&languages.colors=github&languages.threshold=0%25&languages.indepth=false&languages.analysis.timeout=15&languages.categories=markup%2C%20programming&languages.recent.categories=markup%2C%20programming&languages.recent.load=300&languages.recent.days=14&activity.limit=5&activity.load=300&activity.days=14&activity.filter=all&activity.visibility=all&activity.timestamps=false&notable.from=organization&notable.repositories=false&config.timezone=Europe%2FParis)
+
+<!--
 ```JavaScript
 {
   name: 'Jérémy Surieux',
@@ -22,27 +25,4 @@
   ]
 }
 ```
-
-![Stats](https://github-readme-stats.vercel.app/api?username=Lelberto&theme=tokyonight&hide_border=true&custom_title=GitHub%20Stats&count_private=true&show_icons=true)
-![Stats](https://github-readme-stats.vercel.app/api/top-langs?username=Lelberto&theme=tokyonight&layout=compact&hide_border=true&langs_count=8)
-
-![Separator](https://i.gyazo.com/5ad8a6123e3c113e48128b93f67c3870.png)
-
-### Skills 🔧
-
-[<img src="https://cdn.iconscout.com/icon/free/png-512/typescript-1174965.png" title="TypeScript" width="30" />](https://typescriptlang.org)
-[<img src="https://cdn.iconscout.com/icon/free/png-256/java-43-569305.png" title="Java" width="30" />](https://www.java.com)
-[<img src="https://user-images.githubusercontent.com/42747200/46140125-da084900-c26d-11e8-8ea7-c45ae6306309.png" title="C++" width="30" />](https://www.cplusplus.com)
-[<img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/057/full/scsslogo.png" title="Sass" width="30" />](https://sass-lang.com)
-
-[<img src="https://image.flaticon.com/icons/png/512/919/919825.png" title="NodeJS" width="30" />](https://nodejs.org)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/1200px-Deno.svg.png" title="Deno" width="30" />](https://deno.land/)
-[<img src="https://ionicframework.com/jp/docs/assets/icons/logo-react-icon.png" title="React" width="30" />](https://fr.reactjs.org)
-[<img src="https://img.icons8.com/color/452/mongodb.png" title="MongoDB" width="30" />](https://www.mongodb.com)
-[<img src="https://www.markusantonwolf.com/media/pages/blog/tailwind-css/265298487-1596675041/tailwind-css-logo.svg" title="TailwindCSS" width="30" />](https://tailwindcss.com)
-
-### Contact 🌐
-
-[<img src="https://www.linkmobility.fr/wp-content/uploads/2015/11/linkedin-icon.png" title="LinkedIn" width="30" />](https://www.linkedin.com/in/j%C3%A9r%C3%A9my-surieux-24552a160)
-[<img src="https://cdn.icon-icons.com/icons2/836/PNG/512/Twitter_icon-icons.com_66803.png" title="Twitter" width="30" />](https://twitter.com/Lelberto)
-[<img src="https://image.flaticon.com/icons/png/512/174/174855.png" title="Instagram" width="30" />](https://www.instagram.com/jerme98)
+-->
