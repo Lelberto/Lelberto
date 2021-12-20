@@ -30,12 +30,12 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.right.svg
           base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 10
           plugin_followup: yes
           plugin_followup_indepth: yes
           plugin_stargazers: yes
-          config_order: activity, followup, stargazers
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          config_order: followup, stargazers, activity
           config_timezone: Europe/Paris
       - name: Metrics (bottom)
         uses: lowlighter/metrics@latest
