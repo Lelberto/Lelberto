@@ -1,11 +1,21 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 9 * * *"}]
+  schedule:
+    - cron: "0 9 * * *"
   workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@latest
+      - name: Personal metrics
+        uses: lowlighter/metrics@latest
+        if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.base.svg
+          base: header
+          plugin_isocalendar: yes
+          plugin_languages: yes
+          plugin_languages_ignored: dockerfile, makefile, shell
+          plugin_languages_limit: 5
+          config_order: base.header, isocalendar, languages
