@@ -20,6 +20,7 @@ jobs:
           plugin_languages_ignored: dockerfile, makefile, shell
           plugin_languages_skipped: ar-cards, minecraft-among-us, skyblock-confinement
           plugin_languages_limit: 5
+          plugin_languages_analysis_timeout: 60
           plugin_habits: yes
           config_order: base.header, isocalendar, languages, habits
           config_timezone: Europe/Paris
