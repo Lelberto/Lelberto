@@ -24,3 +24,26 @@ jobs:
           plugin_habits: yes
           config_order: base.header, isocalendar, languages, habits
           config_timezone: Europe/Paris
+      - name: Metrics (right)
+        uses: lowlighter/metrics@latest
+        if: ${{ success() || failure() }}
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.right.svg
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+          plugin_stargazers: yes
+          config_order: activity, followup, stargazers
+          config_timezone: Europe/Paris
+      - name: Metrics (bottom)
+        uses: lowlighter/metrics@latest
+        if: ${{ success() || failure() }}
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.bottom.svg
+          plugin_skyline: yes
+          plugin_skyline_frames: 120
+          plugin_skyline_quality: 0.5
+          config_timezone: Europe/Paris
