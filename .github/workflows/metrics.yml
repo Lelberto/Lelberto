@@ -7,15 +7,20 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Personal metrics
+      - name: Metrics (left)
         uses: lowlighter/metrics@latest
         if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.base.svg
+          filename: metrics.left.svg
           base: header
           plugin_isocalendar: yes
           plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, percentage
           plugin_languages_ignored: dockerfile, makefile, shell
+          plugin_languages_skipped: ar-cards, minecraft-among-us, skyblock-confinement
           plugin_languages_limit: 5
-          config_order: base.header, isocalendar, languages
+          plugin_habits: yes
+          config_order: base.header, isocalendar, languages, habits
+          config_timezone: Europe/Paris
