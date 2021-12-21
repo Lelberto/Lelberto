@@ -22,6 +22,7 @@ jobs:
           plugin_languages_limit: 5
           plugin_languages_analysis_timeout: 60
           plugin_habits: yes
+          plugin_habits_charts: yes
           config_order: base.header, isocalendar, languages, habits
           config_timezone: Europe/Paris
       - name: Metrics (right)
