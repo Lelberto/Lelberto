@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2664" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="2293" class="">
     <defs>
         <style/>
     </defs>
@@ -200,13 +200,8 @@
                             <div class="entry">
                                 <span class="value">32</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                29
-                                <div class="bottom">Dec.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 30
+                                <div class="bottom">Dec.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -268,6 +263,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 11
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                12
                             </div>
                         </div>
                     </section>
@@ -277,13 +277,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                29
-                                <div class="bottom">Dec.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 30
+                                <div class="bottom">Dec.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -345,6 +340,11 @@
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 11
+                            </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                12
                             </div>
                         </div>
                     </section>
@@ -359,6 +359,23 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path d="M11.28 6.78a.75.75 0 00-1.06-1.06L7.25 8.69 5.78 7.22a.75.75 0 00-1.06 1.06l2 2a.75.75 0 001.06 0l3.5-3.5z"/>
+                                        <path fill-rule="evenodd" d="M16 8A8 8 0 110 8a8 8 0 0116 0zm-1.5 0a6.5 6.5 0 11-13 0 6.5 6.5 0 0113 0z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Closed
+                                        <span class="issue">#12 Module documentation</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened  in <span class="repo">la-guirlande/guirlande-hub-backend</span></div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -774,116 +791,6 @@ Update logs</span>
                                 </div>
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <span class="sha">#35b2e7a</span>
-                                        <span class="message">Refactoring</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#a546a64</span>
-                                        <span class="message">Update module registration log</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#7b0aa47</span>
-                                        <span class="message">Add led strip loop system
-Add POST endpoint for loops
-Update sendLoop function</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9e3bfdc</span>
-                                        <span class="message">Update send method</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#3fdfae7</span>
-                                        <span class="message">Add register, disconnect and disconnectAll methods
-Add disconnection for all online module when startup</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#8bbbac2</span>
-                                        <span class="message">Fix module disconnection
-Add logs in module registration and disconnection</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f3443be</span>
-                                        <span class="message">Add LED strip module and controller
-Add loop system for LED strip modules (WIP)</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#093f5e1</span>
-                                        <span class="message">Add module class
-Add module creation method
-Update module service and websocket logic</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#5ae3d49</span>
-                                        <span class="message">Add bad request error code</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#db5b181</span>
-                                        <span class="message">Add validate and invalidate endpoints</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#72927d0</span>
-                                        <span class="message">Remove log</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#9979b75</span>
-                                        <span class="message">Add list and get modules endpoints</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#b455cdc</span>
-                                        <span class="message">Add modules websocket
-WIP</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#58a1779</span>
-                                        <span class="message">Sets timeout pending module deletion at startup
-This call will sets timeouts for all pending modules in database</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#cf8530b</span>
-                                        <span class="message">Add modules controller
-Add register endpoint to registers new modules</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#008da29</span>
-                                        <span class="message">Add modules configuration section
-Add "deletePendingTimeout": Time in seconds for timeout pending module deletion
-Add "MODULE_TOKEN_LENGTH" in environment</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#01c2a6b</span>
-                                        <span class="message">Add module and color services</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f967eef</span>
-                                        <span class="message">Add module model</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#f463d26</span>
-                                        <span class="message">Add documentations
-Add communication documentation (FR)
-WIP</span>
-                                    </div>
-                                    <div class="commit">
-                                        <span class="sha">#12d4547</span>
-                                        <span class="message">Update package-lock</span>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 43 commits in
-                                        <span class="repo">la-guirlande/guirlande-hub-backend</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">release/1.0.0</span></div>
                                     <div class="commit">
                                         <span class="sha">#35b2e7a</span>
                                         <span class="message">Refactoring</span>
