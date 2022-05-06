@@ -35,6 +35,7 @@ jobs:
           plugin_stargazers: yes
           plugin_activity: yes
           plugin_activity_limit: 10
+          plugin_activity_visibility: public
           config_order: followup, stargazers, activity
           config_timezone: Europe/Paris
       - name: Metrics (bottom)
