@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1256" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1373" class="">
     <defs>
         <style/>
     </defs>
@@ -201,13 +201,8 @@
                             <div class="entry">
                                 <span class="value">32</span>
                                 <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                25
-                                <div class="bottom">Apr.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 2.5px; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 26
+                                <div class="bottom">Apr.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -270,6 +265,11 @@
                                 <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 8
                             </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 50px; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                9
+                            </div>
                         </div>
                     </section>
                     <section class="column chart chartist">
@@ -278,13 +278,8 @@
                             <div class="entry">
                                 <span class="value"></span>
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
-                                25
-                                <div class="bottom">Apr.</div>
-                            </div>
-                            <div class="entry">
-                                <span class="value"></span>
-                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 26
+                                <div class="bottom">Apr.</div>
                             </div>
                             <div class="entry">
                                 <span class="value"></span>
@@ -347,6 +342,11 @@
                                 <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
                                 8
                             </div>
+                            <div class="entry">
+                                <span class="value"></span>
+                                <div class="bar" style="height: 0px; background-color: var(--color-calendar-graph-day-L0-bg)"></div>
+                                9
+                            </div>
                         </div>
                     </section>
                 </div>
@@ -360,6 +360,63 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 10 commits in
+                                        <span class="repo">Lelberto/drawtheyear-backend</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#ac526c8</div>
+                                        <div class="message">Fix @IdToDay() pipe</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#6976c57</div>
+                                        <div class="message">Update day system</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b7b0ac5</div>
+                                        <div class="message">Add @IsSpecificDate() decorator
+This class-validator decorator is used to check if a property is a date with the YYYY-MM-DD format</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#2f66666</div>
+                                        <div class="message">Update emotion service and controller</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#115cd6f</div>
+                                        <div class="message">Add day-self HATEOAS link</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#79dd20c</div>
+                                        <div class="message">Export UserService</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d3652de</div>
+                                        <div class="message">Add ClassSerializerInterceptor</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#ad25e61</div>
+                                        <div class="message">Update emotions controllers</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#bba28c1</div>
+                                        <div class="message">Update TransformInterceptor</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#988edfc</div>
+                                        <div class="message">Update / Fix EmotionService</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -576,34 +633,6 @@
                                     <div class="commit">
                                         <div class="sha">#d38bdf2</div>
                                         <div class="message">Update days</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 3 commits in
-                                        <span class="repo">Lelberto/drawtheyear-backend</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#821bb88</div>
-                                        <div class="message">Add days</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b2ccff3</div>
-                                        <div class="message">Swagger implementation</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#10c8236</div>
-                                        <div class="message">Add Swagger modules</div>
                                     </div>
                                 </div>
                             </section>
