@@ -38,7 +38,7 @@ jobs:
         if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.bottom.svg
+          filename: metrics.skyline.svg
           base: ""
           plugin_skyline: yes
           plugin_skyline_frames: 60
