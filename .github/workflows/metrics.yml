@@ -7,31 +7,21 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Metrics (left)
+      - name: Metrics
         uses: lowlighter/metrics@latest
         if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.left.svg
-          plugin_isocalendar: yes
+          filename: metrics.svg
           plugin_languages: yes
-          plugin_languages_details: bytes-size, percentage
+          plugin_languages_details: percentage
           plugin_languages_ignored: dockerfile, makefile, shell
           plugin_languages_skipped: ar-cards, minecraft-among-us, skyblock-confinement
           plugin_languages_limit: 6
           plugin_habits: yes
+          plugin_habits_days: 30
           plugin_habits_charts: yes
-          config_order: base.header, isocalendar, languages, habits
-          config_timezone: Europe/Paris
-      - name: Metrics (right)
-        uses: lowlighter/metrics@latest
-        if: ${{ success() || failure() }}
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.right.svg
-          base: ""
-          plugin_followup: yes
-          plugin_followup_indepth: yes
+          plugin_habits_charts_type: chartist
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_token: e36ce5b786fd4d0db49234628f54c8d2,${{ secrets.METRICS_SPOTIFY_CLIENT_SECRET }},${{ secrets.METRICS_SPOTIFY_REFRESH_TOKEN }}
@@ -39,10 +29,11 @@ jobs:
           plugin_music_limit: 5
           plugin_activity: yes
           plugin_activity_limit: 10
+          plugin_activity_days: 30
           plugin_activity_visibility: public
-          config_order: followup, music, activity
+          config_order: base.header, languages, habits, music, activity
           config_timezone: Europe/Paris
-      - name: Metrics (bottom)
+      - name: Metrics (skyline)
         uses: lowlighter/metrics@latest
         if: ${{ success() || failure() }}
         with:
