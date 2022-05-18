@@ -7,12 +7,12 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Metrics
+      - name: Metrics (left)
         uses: lowlighter/metrics@latest
         if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.svg
+          filename: metrics.left.svg
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_ignored: dockerfile, makefile, shell
@@ -22,6 +22,15 @@ jobs:
           plugin_habits_days: 30
           plugin_habits_charts: yes
           plugin_habits_charts_type: chartist
+          config_order: base.header, languages, habits
+          config_timezone: Europe/Paris
+      - name: Metrics (right)
+        uses: lowlighter/metrics@latest
+        if: ${{ success() || failure() }}
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          filename: metrics.right.svg
+          base: ""
           plugin_music: yes
           plugin_music_provider: spotify
           plugin_music_token: e36ce5b786fd4d0db49234628f54c8d2,${{ secrets.METRICS_SPOTIFY_CLIENT_SECRET }},${{ secrets.METRICS_SPOTIFY_REFRESH_TOKEN }}
@@ -31,14 +40,14 @@ jobs:
           plugin_activity_limit: 10
           plugin_activity_days: 30
           plugin_activity_visibility: public
-          config_order: base.header, languages, habits, music, activity
+          config_order: music, activity
           config_timezone: Europe/Paris
-      - name: Metrics (skyline)
+      - name: Metrics (bottom)
         uses: lowlighter/metrics@latest
         if: ${{ success() || failure() }}
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: metrics.skyline.svg
+          filename: metrics.bottom.svg
           base: ""
           plugin_skyline: yes
           plugin_skyline_frames: 60
