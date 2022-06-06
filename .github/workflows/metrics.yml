@@ -39,7 +39,7 @@ jobs:
           plugin_activity: yes
           plugin_activity_limit: 10
           plugin_activity_days: 30
-          plugin_activity_visibility: public
+#         plugin_activity_visibility: public
           config_order: music, activity
           config_timezone: Europe/Paris
       - name: Metrics (bottom)
