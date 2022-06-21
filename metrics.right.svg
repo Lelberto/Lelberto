@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1786" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="1569" class="">
     <defs>
         <style/>
     </defs>
@@ -70,6 +70,51 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 4 commits in
+                                        <span class="repo">Lelberto/drawtheyear-frontend</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">design</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#2b8dd62</div>
+                                        <div class="message">Update CSS</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d398b27</div>
+                                        <div class="message">Add sidebar (WIP)</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#40a06d4</div>
+                                        <div class="message">FontAwesome implementation</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#b69f6c2</div>
+                                        <div class="message">Add FontAwesome packages</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Starred
+                                        <span class="repo">Kong/insomnia</span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -401,103 +446,6 @@ Add exception module
 Update HTTP exception filter
 Add TypeORM exception filter
 Add exception service</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 11 commits in
-                                        <span class="repo">Lelberto/drawtheyear-frontend</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">hateoas</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#39e1573</div>
-                                        <div class="message">Add users endpoint in config</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#f82ff78</div>
-                                        <div class="message">Update user hook</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5e42801</div>
-                                        <div class="message">Update route param</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#dcdfc2e</div>
-                                        <div class="message">Rename auth context</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#7d319eb</div>
-                                        <div class="message">Rename pages</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#4783d7e</div>
-                                        <div class="message">Update login system</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#42cdfa7</div>
-                                        <div class="message">Update auth context and hook</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#2b10a11</div>
-                                        <div class="message">Update config
-WIP: The configuration is not getted from environment variables</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3615432</div>
-                                        <div class="message">Add configuration</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#6d2f0cd</div>
-                                        <div class="message">Update HATEOAS system</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#aeca6ae</div>
-                                        <div class="message">Update auth context</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 5 commits in
-                                        <span class="repo">Lelberto/drawtheyear-backend</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#57035db</div>
-                                        <div class="message">Fix imports</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#5f7b489</div>
-                                        <div class="message">Create global directory</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#1800ed3</div>
-                                        <div class="message">Move app module into modules directory</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#60b780f</div>
-                                        <div class="message">Refactor project structure</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#3125d9f</div>
-                                        <div class="message">Update storage exception</div>
                                     </div>
                                 </div>
                             </section>
