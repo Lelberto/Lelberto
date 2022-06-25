@@ -30,14 +30,14 @@
                         <div class="field calendar">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 11" width="210" height="16">
                                 <g>
-                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
+                                    <rect class="day" x="15" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
-                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
+                                    <rect class="day" x="60" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="75" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="90" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
-                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="135" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
@@ -291,18 +291,18 @@
                             <div class="ct-chart">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="216" height="160" class="ct-chart-pie">
                                     <g class="ct-series ct-series-a">
-                                        <path d="M100.619,5.364A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.8452229299363058"/>
+                                        <path d="M100.618,5.364A75,75,0,1,0,108,5L108,80Z" class="ct-slice-pie" ct:value="0.8451966363713582"/>
                                     </g>
                                     <g class="ct-series ct-series-b">
-                                        <path d="M105.134,5.055A75,75,0,0,0,100.359,5.39L108,80Z" class="ct-slice-pie" ct:value="0.008248407643312103"/>
+                                        <path d="M105.134,5.055A75,75,0,0,0,100.357,5.39L108,80Z" class="ct-slice-pie" ct:value="0.00824980888473626"/>
                                     </g>
                                     <g class="ct-series ct-series-c">
-                                        <path d="M108,5A75,75,0,0,0,104.873,5.065L108,80Z" class="ct-slice-pie" ct:value="0.005222929936305733"/>
+                                        <path d="M108,5A75,75,0,0,0,104.872,5.065L108,80Z" class="ct-slice-pie" ct:value="0.005223817208867748"/>
                                     </g>
                                     <g>
-                                        <text dx="109.84747026970196" dy="117.45446373401397" text-anchor="middle" class="ct-label">TypeScript</text>
-                                        <text dx="105.43721373156806" dy="42.587674136157524" text-anchor="middle" class="ct-label">JavaScript</text>
-                                        <text dx="107.28347665079569" dy="42.50684603437522" text-anchor="middle" class="ct-label">CSS</text>
+                                        <text dx="109.84783547909275" dy="117.45444571799463" text-anchor="middle" class="ct-label">TypeScript</text>
+                                        <text dx="105.43670749828124" dy="42.58770881714631" text-anchor="middle" class="ct-label">JavaScript</text>
+                                        <text dx="107.28333491031616" dy="42.5068487434141" text-anchor="middle" class="ct-label">CSS</text>
                                     </g>
                                 </svg>
                                 <div class="ct-legend">
@@ -462,7 +462,7 @@
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 24 Jun 2022, 06:56:44 (timezone Europe/Paris) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 25 Jun 2022, 06:47:36 (timezone Europe/Paris) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
