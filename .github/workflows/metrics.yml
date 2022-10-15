@@ -21,7 +21,7 @@ jobs:
           plugin_habits: yes
           plugin_habits_days: 30
           plugin_habits_charts: yes
-          plugin_habits_charts_type: chartist
+          plugin_habits_charts_type: classic
           config_order: base.header, languages, habits
           config_timezone: Europe/Paris
       - name: Metrics (right)
